@@ -12,7 +12,7 @@ html{
 }
 
 body{
-  background-color: blue;
+  background-color: #004735;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,12 +22,12 @@ body{
 }
 
 button {
-  background-color: orange;
-  color: white;
+  background-color: #FF8629;
+  color: #eae4e4;
   font-size: 1.8rem;
   letter-spacing: .2rem;
   padding: 2rem 3rem;
-  border: .2rem solid darkcyan;
+  border: .2rem solid #FF8629;
   border-radius: .5rem;
   text-transform: uppercase;
   overflow: hidden;
