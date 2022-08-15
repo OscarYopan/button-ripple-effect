@@ -27,16 +27,21 @@ button {
   font-size: 1.8rem;
   letter-spacing: .2rem;
   padding: 2rem 3rem;
-  border: .2rem solid #FF8629;
+  border: none;
   border-radius: .5rem;
   text-transform: uppercase;
   overflow: hidden;
   margin: 1rem 0;
   position: relative;
+  cursor: pointer;
 }
 
 button:focus {
   outline: none;
+}
+
+button:hover {
+  color: #004735;
 }
 
 button .circle {  
