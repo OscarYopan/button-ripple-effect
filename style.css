@@ -7,12 +7,15 @@
 
 /*Default*/
 html{
-  font-family: Arial, Helvetica, sans-serif
-  font-size: 62.5%;
+  --color1: #D0D3D9;
+  --color2: #034AA6;
+  --color3: #A67F5D;
+
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-  background-color: #004735;
+  background-color: var(--color1);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,8 +25,8 @@ body{
 }
 
 button {
-  background-color: #FF8629;
-  color: #eae4e4;
+  background-color: var(--color2);
+  color: var(--color1);
   font-size: 1.8rem;
   letter-spacing: .2rem;
   padding: 2rem 3rem;
@@ -41,7 +44,7 @@ button:focus {
 }
 
 button:hover {
-  color: #004735;
+  color: var(--color3);
 }
 
 button .circle {  
